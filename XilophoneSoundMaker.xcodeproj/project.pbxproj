@@ -12,6 +12,8 @@
 		2E0BE92628550AAE00857A13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0BE92428550AAE00857A13 /* Main.storyboard */; };
 		2E0BE92828550AB000857A13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0BE92728550AB000857A13 /* Assets.xcassets */; };
 		2E0BE92B28550AB000857A13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0BE92928550AB000857A13 /* LaunchScreen.storyboard */; };
+		2E984F8928552A3A00642DC0 /* mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E984F8828552A3A00642DC0 /* mp3 */; };
+		2E984F8C28552AA300642DC0 /* p.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E984F8B28552AA300642DC0 /* p.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		2E0BE92728550AB000857A13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0BE92A28550AB000857A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0BE92C28550AB000857A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E984F8828552A3A00642DC0 /* mp3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mp3; sourceTree = "<group>"; };
+		2E984F8A28552A8400642DC0 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
+		2E984F8B28552AA300642DC0 /* p.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = p.mp3; path = ../../dwhelper/p.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,9 @@
 		2E0BE91428550AAE00857A13 = {
 			isa = PBXGroup;
 			children = (
+				2E984F8B28552AA300642DC0 /* p.mp3 */,
+				2E984F8A28552A8400642DC0 /* A.mp3 */,
+				2E984F8828552A3A00642DC0 /* mp3 */,
 				2E0BE91F28550AAE00857A13 /* XilophoneSoundMaker */,
 				2E0BE91E28550AAE00857A13 /* Products */,
 			);
@@ -125,6 +133,8 @@
 				2E0BE92B28550AB000857A13 /* LaunchScreen.storyboard in Resources */,
 				2E0BE92828550AB000857A13 /* Assets.xcassets in Resources */,
 				2E0BE92628550AAE00857A13 /* Main.storyboard in Resources */,
+				2E984F8C28552AA300642DC0 /* p.mp3 in Resources */,
+				2E984F8928552A3A00642DC0 /* mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
